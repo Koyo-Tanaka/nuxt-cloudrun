@@ -27,7 +27,7 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    baseURL: process.env.TESTNAME || 'https://nuxtjs.org'
+    baseURL: process.env.TESTNAME
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
