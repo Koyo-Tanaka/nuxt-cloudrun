@@ -19,5 +19,5 @@ jobs:
           image_name: cloud-wiki_web_sample
           image_tag: ${{ steps.get_tag_name.outputs.GIT_TAG_NAME}}
           dockerfile: ./Dockerfile
-          build_args: TESTNAME=aaaaaaa
+          build_args: _TESTNAME=aaaaaaa
 
