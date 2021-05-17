@@ -18,4 +18,5 @@ jobs:
           project_id: cloud-wiki-309101
           image_name: cloud-wiki_web_sample
           image_tag: ${{ steps.get_tag_name.outputs.GIT_TAG_NAME}}
+          build_args: TESTNAME=${{secrets.TESTNAME}}
 
