@@ -18,6 +18,5 @@ jobs:
           project_id: cloud-wiki-309101
           image_name: cloud-wiki_web_sample
           image_tag: ${{ steps.get_tag_name.outputs.GIT_TAG_NAME}}
-          dockerfile: ./Dockerfile
-          build_args: _TESTNAME=aaaaaaa
+          build_args: TESTNAME=${{ secrets.TESTNAME }}
 
