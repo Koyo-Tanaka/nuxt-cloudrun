@@ -10,6 +10,7 @@
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-subheader>▷▷▷{{$config.baseURL}}◁◁◁</v-subheader>
+        <v-subheader>▷▷▷{{$config.baseURL1}}◁◁◁</v-subheader>
         <v-card-text>
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>
